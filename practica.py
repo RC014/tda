@@ -22,7 +22,7 @@ print("C = ", c)
 
 def simplificare_frac(numar, numit):
     i = 2
-    while i < min(numar, numit) + 1:
+    while i <= min(numar, numit):
         if (numar % i == 0) and (numit % i == 0):
             numar = numar // i
             numit = numit // i
